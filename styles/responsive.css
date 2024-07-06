@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+  #banner {
+    height: fit-content;
+  }
+  .banner h1 {
+    font-size: 20px;
+  }
+  .favourite-brand-container {
+    margin: 30px 0px;
+  }
+  .favourite-brand-container .favourite-brand {
+    flex-direction: column;
+  }
+  .about-us-container .about-media {
+    flex-direction: column;
+  }
+  .about-us-container .about-media .img {
+    width: 100%;
+  }
+  .about-us-container .about-media .media-details {
+    width: 100%;
+  }
+  footer .media-details {
+    height: none;
+  }
+  footer .media-details {
+    height: 100%;
+  }
+  .media-details .white-bg {
+    height: 100%;
+  }
+}
