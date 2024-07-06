@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* this is header section */
+#banner {
+  background-image: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../assets/hero-bg.png);
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.banner {
+  text-align: center;
+  max-width: 1030px;
+}
+.banner h4 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 600;
+}
+.banner h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  margin: 15px 0px;
+}
+.banner p {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.banner button {
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  padding: 10px 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* end header */
+/* favourite-brand-container */
+.favourite-brand-container {
+  margin: 80px 0px;
+}
+.favourite-brand-container .caption {
+  text-align: center;
+}
+.favourite-brand-container .caption h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(16, 16, 16);
+}
+.favourite-brand-container .caption h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(16, 16, 16);
+}
+.favourite-brand-container .favourite-brand {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.favourite-brand-container .favourite-brand img {
+  width: 100%;
+}
+.favourite-brand-container .favourite-brand .desc {
+  margin-top: 30px;
+}
+.favourite-brand-container .favourite-brand button {
+  background: rgba(82, 195, 3, 0.15);
+  border: none;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.favourite-brand .desc h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+.favourite-brand .desc p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.favourite-brand-container .btn {
+  text-align: center;
+  margin-top: 64px;
+}
+.favourite-brand-container .btn button {
+  color: white;
+  background-color: rgb(82, 195, 3);
+  border: none;
+  border-radius: 8px;
+  padding: 21px 32px 21px 32px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* end favourtie-brand-cotainer */
+/* about us container */
+.about-us-container .about-media {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+.about-us-container .about-media .img {
+  width: 50%;
+}
+.about-us-container .about-media img {
+  width: 100%;
+}
+.about-us-container .media-details .caption h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.about-us-container .media-details .caption p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #707070;
+  margin-top: 15px;
+}
+.about-us-container .about-media .media-details {
+  width: 70%;
+  text-align: center;
+  align-items: center;
+}
+.about-us-container .about-media .media-details .follow {
+  border: 1px solid gray;
+  padding: 30px 0px;
+  margin-top: 50px;
+  color: #707070;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.about-us-container .social-media-details {
+  font-size: 30px;
+}
+.about-us-container .social-media-details .fa-facebook-f {
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 178, 255) -0.911%,
+    rgb(0, 106, 255) 104.264%
+  );
+  padding: 9px 9px 0px 9px;
+  border-radius: 54%;
+  color: white;
+}
+.about-us-container .social-media-details .fa-pinterest-p {
+  background-color: #e13138;
+  padding: 9px 9px 0px 9px;
+  border-radius: 54%;
+  color: white;
+}
+/* end about us container */
+/* start footer secition */
+footer .media-details {
+  background-image: url(../assets/social-bg.png);
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: -111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer .footer-media {
+  z-index: 111;
+}
+.media-details .white-bg {
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: -1;
+}
+footer .media-details .caption {
+  max-width: 805px;
+}
+footer .media-details .caption h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+footer .media-details .caption p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #707070;
+  margin-top: 15px;
+}
+footer .media-details .follow {
+  border: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0px;
+  margin-top: 50px;
+  color: #707070;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer .social-media-details {
+  font-size: 30px;
+}
+footer .social-media-details .fa-facebook-f {
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 178, 255) -0.911%,
+    rgb(0, 106, 255) 104.264%
+  );
+  padding: 9px 9px 0px 9px;
+  border-radius: 54%;
+  color: white;
+}
+footer .social-media-details .fa-pinterest-p {
+  background-color: #e13138;
+  padding: 9px 9px 0px 9px;
+  border-radius: 54%;
+  color: white;
+}
+/* end footer section */
